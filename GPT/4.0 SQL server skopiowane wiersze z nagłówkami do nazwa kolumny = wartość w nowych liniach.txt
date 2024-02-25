@@ -1,0 +1,10 @@
+Przepisz proszę poniższe dane, tworząc pary 'nazwa kolumny = wartość'. Każda para powinna znajdować się w nowej linii. Gdzie wartość jest pusta, wstaw 'NULL'. Umieść wartości tekstowe i daty w apostrofach (tylko wartości, kolumny bez apostrofów), a wartości liczbowe bez apostrofów. Dla wartości liczbowych użyj przecinka jako separatora części dziesiętnych (a nie kropki). Dane powinny być przedstawione w stylu, który jest typowy dla SQL. 
+W linijce z nazwą kolumny 'use_end_date' wyjątkowo zamiast pary kolumna-wartość wprowadź tekst '= "use_end_date = '" &X.WYSZUKAJ("#5";'Lista identyfikatorów'!$A$2:$A$100;'Lista identyfikatorów'!$C$2:$C$100;FAŁSZ) & "'"' (bez zewnętrznych apostrofów). 
+W linijce z nazwą kolumny 'operator_id' wyjątkowo zamiast pary kolumna-wartość wprowadź tekst '= "operator_id = '" &X.WYSZUKAJ("#7";'Lista identyfikatorów'!$A$2:$A$100;'Lista identyfikatorów'!$C$2:$C$100;FAŁSZ) & "'"' (bez zewnętrznych apostrofów).
+Pomiń pary z kolumną 'use_id', 'logged_in_operator_for_history' oraz 'use_date_time'. Oto dane:
+
+Kolumny:
+use_id;use_begin_date;use_end_date;use_duration;workuser_id;work_id;channel_id;exploitation_field_id;use_premiere;use_type_id;use_amount;use_producers_amount;use_director_amount;use_scriptwriter_amount;use_dialogues_author_amount;use_previous_work_author_amount;use_photography_amount;use_production_designer_amount;operator_id;use_date_time;use_status;locked;rightsholder_id;use_imp_arch_id;use_imp_set_id;use_period_protected;use_period_protected_id;use_costume_designer_amount;use_editor_amount;use_sound_recorder_amount;use_contract_id;use_interior_designer_amount;use_zaiks_scriptwriter_amount;use_zaiks_dialogues_author_amount;validity_begin_date;validity_end_date;logged_in_operator_for_history
+
+Wartości: 
+12317631;2079-06-05 00:00:00.000;2079-06-06 00:00:00.000;NULL;218;12;NULL;1;0;4;238,7363;NULL;146,8281;NULL;NULL;NULL;40,3497;20,1751;muranski;2024-02-13 15:42:12.687;1;NULL;1447;NULL;NULL;NULL;NULL;8,9667;8,9667;13,45;1115;NULL;NULL;NULL;1901-01-01 00:00:00.000;2999-01-01 00:00:00.000;SFPZAPA\muranski

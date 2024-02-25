@@ -1,0 +1,8 @@
+Przetwórz mi dane w formacie CSV podane na końcu (wynik podaj bez pogrubienia czcionki):
+na początku dopisz '="' (tylko tekst pomiędzy apostrofami)
+w polu #5 wstaw '"&X.WYSZUKAJ("#5";'Lista identyfikatorów'!$A$2:$A$100;'Lista identyfikatorów'!$C$2:$C$100;FAŁSZ)&"' (tylko tekst pomiędzy apostrofami)
+w polu #32 wstaw '"&X.WYSZUKAJ("#7";'Lista identyfikatorów'!$A$2:$A$100;'Lista identyfikatorów'!$C$2:$C$100;FAŁSZ)&"' (tylko tekst pomiędzy apostrofami)
+w polu #33 dodaj jeden cudzysłów po pierwszym cudzysłowie i dwa cudzysłowy po drugim cudzysłowie
+
+Dane:
+Nie znalazłem udziału dla uprawnionego.;Ostrzeżenie;1;2021-01-01;2022-01-25;;;218;Telewizja Polska Spółka Akcyjna;1115;2;utrwalania;4;publiczne odtwarzanie;1447;Wiesław Rutowicz;12;07 zgłoś się;Przerwany urlop;21;238,7363;0,0000;146,8281;0,0000;0,0000;40,3497;20,1751;8,9667;8,9667;13,4500;0,0000;muranski;"rightsholder_id: Ostrzeżenie; "
