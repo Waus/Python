@@ -1,7 +1,0 @@
-Przetwórz mi dane w formacie CSV podane na końcu (wynik podaj bez pogrubienia czcionki):
-na początku dopisz '="' (tylko tekst pomiędzy apostrofami)
-w polu #5 wstaw '"&X.WYSZUKAJ("#5";'Lista identyfikatorów'!$A$2:$A$100;'Lista identyfikatorów'!$C$2:$C$100;FAŁSZ)&"' (tylko tekst pomiędzy apostrofami)
-na końcu dopisz '"' (tylko tekst pomiędzy apostrofami, pojedynczy apostrof)
-
-Dane:
-;;;31.12.2050;31.12.2000;218;Telewizja Polska Spółka Akcyjna;1115;1;wszystkie pola eksploatacji;4;publiczne odtwarzanie;1447;Juliusz Machulski;12;Przerwany urlop;;;238,7363;;146,8281;;;40,3497;20,1751;8,9667;8,9667;13,4500;;;
